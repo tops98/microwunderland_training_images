@@ -13,7 +13,7 @@ Augemntation:
 + Random brigthness adjustment of between -15 and +15 percent
 
 ### real
-Contains images direktly captured by the overhead cameras in the microwunderland. Dataset contains the raw captures, an undistorted version of the images and a ready to use dataset of the undistoreted images with additional augmentation and labeling, split in test train and valid
+Contains images directly captured by the overhead cameras in the microwunderland. The dataset contains the raw captures, an undistorted version of the images and a ready to use dataset of the undistorted images with additional augmentation and labeling, split in test train and valid
 
 <img src="./real/undistorted/image_8.png" style="width:250px; height:250px">
 
@@ -23,9 +23,9 @@ Contains images synthesised in a unity simulation of the microwunderland. The Da
 <img src="./sim/annotated/11.jpg" style="width:250px; height:250px">
 
 ### hybird
-Contains a images that where created using a mix of real image data from the microwunderland and the simulation. The Vehicles in the images are 3D-Models the ground plane is an undistoreted picture of the microwunderland through the overhead camera. The Dataset contains the raw captures and a ready to use dataset, with additional augmentation and labeling, split in test train and valid
+Contains an image that was created using a mix of real image data from the microwunderland and the simulation. The Vehicles in the images are 3D-Models the ground plane is an undistorted picture of the microwunderland through the overhead camera. The Dataset contains the raw captures and a ready to use dataset, with additional augmentation and labeling, split in test train and valid
 
 <img src="./hybrid/annotated/119.jpg" style="width:250px; height:250px">
 
 ### fusion
-Contains a ready to use dataset with a mix of images form all above ready to use datasets. The Data set contians labels and augmentations and is also split in test, train and valid data.
+Contains a ready to use dataset with a mix of images from all above ready to use datasets. The Data set contains labels and augmentations and is also split into test, train and valid data.
